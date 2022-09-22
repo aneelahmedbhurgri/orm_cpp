@@ -1,0 +1,11 @@
+﻿  orm.cpp
+D:\myPinion\backend\test_example\test_project\orm.cpp(595,22): error C2641: cannot deduce template arguments for 'Value'
+D:\myPinion\backend\test_example\test_project\orm.cpp(616): message : see reference to class template instantiation 'Serializer<T>' being compiled
+D:\myPinion\backend\test_example\test_project\orm.cpp(616,1): error C2783: 'Value<E> Value(E)': could not deduce template argument for 'E'
+D:\myPinion\backend\test_example\test_project\orm.cpp(553): message : see declaration of 'Value'
+D:\myPinion\backend\test_example\test_project\orm.cpp(616,1): error C2784: 'Value<E> Value(Value<E>)': could not deduce template argument for 'Value<E>' from 'int'
+D:\myPinion\backend\test_example\test_project\orm.cpp(546): message : see declaration of 'Value'
+D:\myPinion\backend\test_example\test_project\orm.cpp(616,1): error C2784: 'Value<E> Value(Value<E>)': could not deduce template argument for 'Value<E>' from 'int'
+D:\myPinion\backend\test_example\test_project\orm.cpp(546): message : see declaration of 'Value'
+D:\myPinion\backend\test_example\test_project\orm.cpp(595,22): error C2440: '<function-style-cast>': cannot convert from 'int' to 'Value'
+D:\myPinion\backend\test_example\test_project\orm.cpp(616,1): message : No constructor could take the source type, or constructor overload resolution was ambiguous
