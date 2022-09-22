@@ -618,9 +618,9 @@ class Serializer {
 
 int main(int argc, char* argv[]) {
 
-	string connection_string = "dbname = testDB  user = postgres password = admin host = localhost port = 5432";
-	//UserOrm userData = UserOrm("Aneel", "Ahmed", "aneel@ab.com");
-	//userData.createConnection("testDB", "postgres", "admin", "localhost", "5432");
+	string connection_string = "dbname = testDB  user = xxsddw password = yxdswds host = localhost port = 5432";
+	//UserOrm userData = UserOrm("Aneel", "Ahmed", "aneel@wdwds.com");
+	//userData.createConnection("testDB", "xxsddw", "yxdswds", "localhost", "5432");
 	UserOrm userData = UserOrm(connection_string);
 	vector<UserOrm> users = userData.getAllUsers();
 	//cout << users.front().getString() << endl;
